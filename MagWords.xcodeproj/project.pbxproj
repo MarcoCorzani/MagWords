@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9AFDF711A44C0420089BF1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AFDF701A44C0420089BF1E /* AppDelegate.swift */; };
+		A9AFDF731A44C0420089BF1E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AFDF721A44C0420089BF1E /* ViewController.swift */; };
+		A9AFDF761A44C0420089BF1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9AFDF741A44C0420089BF1E /* Main.storyboard */; };
+		A9AFDF781A44C0420089BF1E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9AFDF771A44C0420089BF1E /* Images.xcassets */; };
+		A9AFDF7B1A44C0420089BF1E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9AFDF791A44C0420089BF1E /* LaunchScreen.xib */; };
+		A9AFDF871A44C0420089BF1E /* MagWordsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AFDF861A44C0420089BF1E /* MagWordsTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9AFDF811A44C0420089BF1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9AFDF631A44C0420089BF1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9AFDF6A1A44C0420089BF1E;
+			remoteInfo = MagWords;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A9AFDF6B1A44C0420089BF1E /* MagWords.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagWords.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9AFDF6F1A44C0420089BF1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9AFDF701A44C0420089BF1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A9AFDF721A44C0420089BF1E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A9AFDF751A44C0420089BF1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A9AFDF771A44C0420089BF1E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A9AFDF7A1A44C0420089BF1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A9AFDF801A44C0420089BF1E /* MagWordsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagWordsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9AFDF851A44C0420089BF1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9AFDF861A44C0420089BF1E /* MagWordsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagWordsTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9AFDF681A44C0420089BF1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9AFDF7D1A44C0420089BF1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9AFDF621A44C0420089BF1E = {
+			isa = PBXGroup;
+			children = (
+				A9AFDF6D1A44C0420089BF1E /* MagWords */,
+				A9AFDF831A44C0420089BF1E /* MagWordsTests */,
+				A9AFDF6C1A44C0420089BF1E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9AFDF6C1A44C0420089BF1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9AFDF6B1A44C0420089BF1E /* MagWords.app */,
+				A9AFDF801A44C0420089BF1E /* MagWordsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9AFDF6D1A44C0420089BF1E /* MagWords */ = {
+			isa = PBXGroup;
+			children = (
+				A9AFDF701A44C0420089BF1E /* AppDelegate.swift */,
+				A9AFDF721A44C0420089BF1E /* ViewController.swift */,
+				A9AFDF741A44C0420089BF1E /* Main.storyboard */,
+				A9AFDF771A44C0420089BF1E /* Images.xcassets */,
+				A9AFDF791A44C0420089BF1E /* LaunchScreen.xib */,
+				A9AFDF6E1A44C0420089BF1E /* Supporting Files */,
+			);
+			path = MagWords;
+			sourceTree = "<group>";
+		};
+		A9AFDF6E1A44C0420089BF1E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9AFDF6F1A44C0420089BF1E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A9AFDF831A44C0420089BF1E /* MagWordsTests */ = {
+			isa = PBXGroup;
+			children = (
+				A9AFDF861A44C0420089BF1E /* MagWordsTests.swift */,
+				A9AFDF841A44C0420089BF1E /* Supporting Files */,
+			);
+			path = MagWordsTests;
+			sourceTree = "<group>";
+		};
+		A9AFDF841A44C0420089BF1E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9AFDF851A44C0420089BF1E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9AFDF6A1A44C0420089BF1E /* MagWords */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9AFDF8A1A44C0420089BF1E /* Build configuration list for PBXNativeTarget "MagWords" */;
+			buildPhases = (
+				A9AFDF671A44C0420089BF1E /* Sources */,
+				A9AFDF681A44C0420089BF1E /* Frameworks */,
+				A9AFDF691A44C0420089BF1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MagWords;
+			productName = MagWords;
+			productReference = A9AFDF6B1A44C0420089BF1E /* MagWords.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A9AFDF7F1A44C0420089BF1E /* MagWordsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9AFDF8D1A44C0420089BF1E /* Build configuration list for PBXNativeTarget "MagWordsTests" */;
+			buildPhases = (
+				A9AFDF7C1A44C0420089BF1E /* Sources */,
+				A9AFDF7D1A44C0420089BF1E /* Frameworks */,
+				A9AFDF7E1A44C0420089BF1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9AFDF821A44C0420089BF1E /* PBXTargetDependency */,
+			);
+			name = MagWordsTests;
+			productName = MagWordsTests;
+			productReference = A9AFDF801A44C0420089BF1E /* MagWordsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9AFDF631A44C0420089BF1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Alphaweb;
+				TargetAttributes = {
+					A9AFDF6A1A44C0420089BF1E = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					A9AFDF7F1A44C0420089BF1E = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = A9AFDF6A1A44C0420089BF1E;
+					};
+				};
+			};
+			buildConfigurationList = A9AFDF661A44C0420089BF1E /* Build configuration list for PBXProject "MagWords" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9AFDF621A44C0420089BF1E;
+			productRefGroup = A9AFDF6C1A44C0420089BF1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9AFDF6A1A44C0420089BF1E /* MagWords */,
+				A9AFDF7F1A44C0420089BF1E /* MagWordsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9AFDF691A44C0420089BF1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9AFDF761A44C0420089BF1E /* Main.storyboard in Resources */,
+				A9AFDF7B1A44C0420089BF1E /* LaunchScreen.xib in Resources */,
+				A9AFDF781A44C0420089BF1E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9AFDF7E1A44C0420089BF1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9AFDF671A44C0420089BF1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9AFDF731A44C0420089BF1E /* ViewController.swift in Sources */,
+				A9AFDF711A44C0420089BF1E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9AFDF7C1A44C0420089BF1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9AFDF871A44C0420089BF1E /* MagWordsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9AFDF821A44C0420089BF1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9AFDF6A1A44C0420089BF1E /* MagWords */;
+			targetProxy = A9AFDF811A44C0420089BF1E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A9AFDF741A44C0420089BF1E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9AFDF751A44C0420089BF1E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A9AFDF791A44C0420089BF1E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9AFDF7A1A44C0420089BF1E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9AFDF881A44C0420089BF1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A9AFDF891A44C0420089BF1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9AFDF8B1A44C0420089BF1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MagWords/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A9AFDF8C1A44C0420089BF1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MagWords/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A9AFDF8E1A44C0420089BF1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MagWordsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagWords.app/MagWords";
+			};
+			name = Debug;
+		};
+		A9AFDF8F1A44C0420089BF1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MagWordsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagWords.app/MagWords";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9AFDF661A44C0420089BF1E /* Build configuration list for PBXProject "MagWords" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9AFDF881A44C0420089BF1E /* Debug */,
+				A9AFDF891A44C0420089BF1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9AFDF8A1A44C0420089BF1E /* Build configuration list for PBXNativeTarget "MagWords" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9AFDF8B1A44C0420089BF1E /* Debug */,
+				A9AFDF8C1A44C0420089BF1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A9AFDF8D1A44C0420089BF1E /* Build configuration list for PBXNativeTarget "MagWordsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9AFDF8E1A44C0420089BF1E /* Debug */,
+				A9AFDF8F1A44C0420089BF1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9AFDF631A44C0420089BF1E /* Project object */;
+}
