@@ -13,6 +13,7 @@
 		A9AFDF781A44C0420089BF1E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9AFDF771A44C0420089BF1E /* Images.xcassets */; };
 		A9AFDF7B1A44C0420089BF1E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9AFDF791A44C0420089BF1E /* LaunchScreen.xib */; };
 		A9AFDF871A44C0420089BF1E /* MagWordsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AFDF861A44C0420089BF1E /* MagWordsTests.swift */; };
+		A9AFDF911A44E36D0089BF1E /* karopapier.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A9AFDF901A44E36D0089BF1E /* karopapier.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		A9AFDF801A44C0420089BF1E /* MagWordsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagWordsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9AFDF851A44C0420089BF1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A9AFDF861A44C0420089BF1E /* MagWordsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagWordsTests.swift; sourceTree = "<group>"; };
+		A9AFDF901A44E36D0089BF1E /* karopapier.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = karopapier.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		A9AFDF6D1A44C0420089BF1E /* MagWords */ = {
 			isa = PBXGroup;
 			children = (
+				A9AFDF901A44E36D0089BF1E /* karopapier.jpg */,
 				A9AFDF701A44C0420089BF1E /* AppDelegate.swift */,
 				A9AFDF721A44C0420089BF1E /* ViewController.swift */,
 				A9AFDF741A44C0420089BF1E /* Main.storyboard */,
@@ -195,6 +198,7 @@
 				A9AFDF761A44C0420089BF1E /* Main.storyboard in Resources */,
 				A9AFDF7B1A44C0420089BF1E /* LaunchScreen.xib in Resources */,
 				A9AFDF781A44C0420089BF1E /* Images.xcassets in Resources */,
+				A9AFDF911A44E36D0089BF1E /* karopapier.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
